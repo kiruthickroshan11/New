@@ -1,0 +1,646 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1723018799,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the Chrome Browser and Maximize the Window",
+            "match": {
+              "location": "FbLogin.to_launch_the_Chrome_Browser_and_Maximize_the_Window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "To Validate Login with Valid UserName and Invalid Password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-login-with-valid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2597404100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch  the url of Facebook Application",
+            "match": {
+              "location": "FbloginpostiveNegative.to_launch_the_url_of_Facebook_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74821800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass the Valid UserName in Email filed",
+            "match": {
+              "location": "FbLogin.to_pass_the_Valid_UserName_in_Email_filed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60909200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To Pass the Invalid Password in Password Field",
+            "match": {
+              "location": "FbLogin.to_Pass_the_Invalid_Password_in_Password_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43579300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To Click The Login button",
+            "match": {
+              "location": "FbLogin.to_Click_The_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To Check whether navigate to the homepage or not",
+            "match": {
+              "location": "FbLogin.to_Check_whether_navigate_to_the_homepage_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179617701,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To Close the Browser",
+            "match": {
+              "location": "FbLogin.to_Close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 840538299,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the Chrome Browser and Maximize the Window",
+            "match": {
+              "location": "FbLogin.to_launch_the_Chrome_Browser_and_Maximize_the_Window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "To validate the  Positive and Negative Condiations of FaceBook Applications",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the--positive-and-negative-condiations-of-facebook-applications;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1931644600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To launch  the url of Facebook Application",
+            "match": {
+              "location": "FbloginpostiveNegative.to_launch_the_url_of_Facebook_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72684001,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To Pass the User Name in \"kiruthick@gmail.com\" Email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kiruthick@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "FbloginpostiveNegative.to_Pass_the_User_Name_in_Email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60836800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To Pass the Password in \"krish\"Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"krish\"",
+                  "offset": 24
+                }
+              ],
+              "location": "FbloginpostiveNegative.to_Pass_the_Password_in_Password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66163801,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "To Click The Login  button",
+            "match": {
+              "location": "FbloginpostiveNegative.to_Click_The_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146000099,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To close the  entire Browser",
+            "match": {
+              "location": "FbloginpostiveNegative.to_close_the_entire_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 886360799,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the Chrome Browser and Maximize the Window",
+            "match": {
+              "location": "FbLogin.to_launch_the_Chrome_Browser_and_Maximize_the_Window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "To validate the  Positive and Negative Condiations of FaceBook Applications",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the--positive-and-negative-condiations-of-facebook-applications;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2147499300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To launch  the url of Facebook Application",
+            "match": {
+              "location": "FbloginpostiveNegative.to_launch_the_url_of_Facebook_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62614499,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To Pass the User Name in \"krish@gmail.com\" Email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"krish@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "FbloginpostiveNegative.to_Pass_the_User_Name_in_Email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54073001,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To Pass the Password in \"123456\"Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 24
+                }
+              ],
+              "location": "FbloginpostiveNegative.to_Pass_the_Password_in_Password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69942999,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "To Click The Login  button",
+            "match": {
+              "location": "FbloginpostiveNegative.to_Click_The_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133011899,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To close the  entire Browser",
+            "match": {
+              "location": "FbloginpostiveNegative.to_close_the_entire_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 904627099,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the Chrome Browser and Maximize the Window",
+            "match": {
+              "location": "FbLogin.to_launch_the_Chrome_Browser_and_Maximize_the_Window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "To validate the  Positive and Negative Condiations of FaceBook Applications",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the--positive-and-negative-condiations-of-facebook-applications;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1749861800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To launch  the url of Facebook Application",
+            "match": {
+              "location": "FbloginpostiveNegative.to_launch_the_url_of_Facebook_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83821600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To Pass the User Name in \"jasmine11@gmail.com\" Email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jasmine11@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "FbloginpostiveNegative.to_Pass_the_User_Name_in_Email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57665299,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To Pass the Password in \"kiruthick\"Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kiruthick\"",
+                  "offset": 24
+                }
+              ],
+              "location": "FbloginpostiveNegative.to_Pass_the_Password_in_Password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43706301,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "To Click The Login  button",
+            "match": {
+              "location": "FbloginpostiveNegative.to_Click_The_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128540801,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To close the  entire Browser",
+            "match": {
+              "location": "FbloginpostiveNegative.to_close_the_entire_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 745831399,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the Chrome Browser and Maximize the Window",
+            "match": {
+              "location": "FbLogin.to_launch_the_Chrome_Browser_and_Maximize_the_Window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "To validate the  Positive and Negative Condiations of FaceBook Applications",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the--positive-and-negative-condiations-of-facebook-applications;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2257067900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To launch  the url of Facebook Application",
+            "match": {
+              "location": "FbloginpostiveNegative.to_launch_the_url_of_Facebook_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60276801,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To Pass the User Name in \"rosh@gmail.com\" Email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rosh@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "FbloginpostiveNegative.to_Pass_the_User_Name_in_Email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67905600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To Pass the Password in \"ncr nickname\"Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ncr nickname\"",
+                  "offset": 24
+                }
+              ],
+              "location": "FbloginpostiveNegative.to_Pass_the_Password_in_Password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42123500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "To Click The Login  button",
+            "match": {
+              "location": "FbloginpostiveNegative.to_Click_The_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154862601,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To close the  entire Browser",
+            "match": {
+              "location": "FbloginpostiveNegative.to_close_the_entire_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Login Functionality of FaceBook Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/sample.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "To  create new account",
+        "description": "",
+        "id": "to-validate-the-account-creation-of-fb-application;to--create-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 840534999,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the browser and maximise the  window",
+            "match": {
+              "location": "fbcreatenewacnt.to_launch_the_browser_and_maximise_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1895066200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the url  of fb application",
+            "match": {
+              "location": "fbcreatenewacnt.to_launch_the_url_of_fb_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50886100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To click the create new account button",
+            "match": {
+              "location": "fbcreatenewacnt.to_click_the_create_new_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027firstname\u0027]\"}\n  (Session info: chrome\u003d114.0.5735.199)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027KIRUTHICK\u0027, ip: \u0027192.168.43.21\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\KIRUTH~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51499}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ce240cc11dc15006067a1cbea1178da6\n*** Element info: {Using\u003dname, value\u003dfirstname}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)\r\n\tat org.base.Baseclass.passtext(Baseclass.java:53)\r\n\tat org.stepdefintion.fbcreatenewacnt.to_pass_firstname_in_firstname_text_box(fbcreatenewacnt.java:31)\r\n\tat ✽.To pass firstname in firstname text box(src/test/resources/sample1.feature:6)\r\n",
+              "duration": 22585600,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "To pass firstname in firstname text box",
+            "match": {
+              "location": "fbcreatenewacnt.to_pass_firstname_in_firstname_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11699,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "To pass secondname in secondname text box",
+            "match": {
+              "location": "fbcreatenewacnt.to_pass_secondname_in_secondname_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "To pass mobileno or email  in email text box",
+            "match": {
+              "location": "fbcreatenewacnt.to_pass_mobileno_or_email_in_email_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "To create new password using new password text box",
+            "match": {
+              "location": "fbcreatenewacnt.to_create_new_password_using_new_password_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2999,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "To Close the chrome browser",
+            "match": {
+              "location": "fbcreatenewacnt.to_Close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the account creation of fb application",
+    "description": "",
+    "id": "to-validate-the-account-creation-of-fb-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/sample1.feature",
+    "tags": []
+  }
+]
